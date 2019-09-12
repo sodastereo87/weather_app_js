@@ -1,7 +1,16 @@
 body {
-    background: #eeedec;
     letter-spacing: 0.2em;
     font-size: 0.8em;
+    font-family: 'Lexend Exa', sans-serif;
+    background: -moz-linear-gradient(left, rgb(60, 149, 221) 0%, rgb(151, 191, 218) 100%, white  100%);
+    background: -webkit-linear-gradient(left, rgb(60, 149, 221) 0%, rgb(151, 191, 218) 100%, white   100%);
+    background: linear-gradient(to right, rgb(60, 149, 221) 0%, rgb(151, 191, 218) 100%, white   100%);
+
+}
+
+h1, form {
+    font-family: Georgia;
+    color: white;
 }
 
 .container {
